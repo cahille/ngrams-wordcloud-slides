@@ -26,6 +26,11 @@ Ngrams are contiguous words in text, where N designates how many contiguous word
 
 Wordclouds are images that display sets of words where the words appear larger based on the frequency of the words.
 
+Here is a simple word cloud from the ngram for n=2 from the previous slide.
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+
+
 ---
 
 ## App Options
@@ -56,6 +61,8 @@ Here are some pages to try
 * A Book of Mormon chapter - https://www.lds.org/scriptures/bofm/moro/7?lang=eng
 
 * CNN - http://cnn.com
+
+You can visit the app here - https://spackest.shinyapps.io/shiny
 
 
 ### Enjoy!

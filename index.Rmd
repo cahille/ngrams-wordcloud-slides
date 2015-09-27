@@ -26,6 +26,16 @@ Ngrams are contiguous words in text, where N designates how many contiguous word
 
 Wordclouds are images that display sets of words where the words appear larger based on the frequency of the words.
 
+Here is a simple word cloud from the ngram for n=2 from the previous slide.
+
+```{r echo=FALSE}
+require(wordcloud)
+ngrams <- c("i love", "you i", "love you")
+counts <- c(2, 1, 1)
+wordcloud(words=ngrams, freq=counts, min.freq=1, colors=brewer.pal(6,"Dark2"))
+```
+
+
 ---
 
 ## App Options
