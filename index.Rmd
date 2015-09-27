@@ -57,5 +57,7 @@ Here are some pages to try
 
 * CNN - http://cnn.com
 
+You can visit the app here - https://spackest.shinyapps.io/shiny
+
 
 ### Enjoy!
