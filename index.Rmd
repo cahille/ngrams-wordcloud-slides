@@ -1,0 +1,61 @@
+---
+title       : Ngram Wordclouds
+author      : Earl Cahill
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+---
+
+## Ngrams
+
+Ngrams are contiguous words in text, where N designates how many contiguous words to include. For example you could split the simple phrase
+
+'i love you, i love you, i love you into Ngrams for different values of N and get
+
+1. 'i' x 3, 'love' x 3 and 'you' x 3
+2. 'i love' x 2, 'you i' x 1 and 'love you' x 1
+3. 'i love you' x 3
+
+---
+
+## Wordclouds
+
+Wordclouds are images that display sets of words where the words appear larger based on the frequency of the words.
+
+---
+
+## App Options
+
+My app has a few options to let you slice and dice wordclouds in different ways.
+<p/><p/><p/>
+# url - given a submitted url the app will curl down the url and scrape the text
+<p/><p/><p/>
+# Ngram Length - pick how many words are in your ngrams
+<p/><p/><p/>
+# Maximum Ngrams - pick how many words will appear in your wordcloud
+<p/><p/><p/>
+# Minimum Ngram Frequency -  pick how many times the Ngram must be repeated to be displayed
+<p/><p/><p/>
+# Remove Stopwords - ignore common words like 'of' or 'the'
+<p/><p/><p/>
+
+---
+
+## Fun pages
+
+Here are some pages to try
+
+* A Shakepeare play - http://shakespeare.mit.edu/
+
+* Ken Jennings Twitter feed - https://twitter.com/KenJennings
+
+* A Book of Mormon chapter - https://www.lds.org/scriptures/bofm/moro/7?lang=eng
+
+* CNN - http://cnn.com
+
+
+### Enjoy!
